@@ -55,15 +55,25 @@
 
             //Q5
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            int index = 0;
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int index = 0;
 
-            while(index < books.Length)
+            //while(index < books.Length)
+            //{
+            //    Console.WriteLine(books[index]);
+            //    index ++;
+            //}
+
+            //---------------------------------------------------------
+
+            //Q6
+            int counter = 0;
+            do 
             {
-                Console.WriteLine(books[index]);
-                index ++;
-            }
+                Console.WriteLine("Checking book...");
+                counter++;
 
+            } while (counter < 3);
         }
     }
 }
