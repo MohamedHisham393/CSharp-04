@@ -88,21 +88,35 @@
 
             //Q8
 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //for (int i = 0; i < books.Length; i++)
+            //{
+
+            //    if (books[i] != "Refactoring")
+            //    {
+            //        Console.WriteLine(books[i]);
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+            //}
+
+            //---------------------------------------------------------
+
+            //Q9
+
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            for (int i = 0; i < books.Length; i++)
+            for (int i=0; i<books.Length; i++)
             {
-
-                if (books[i] != "Refactoring")
+                if (books[i] == "The Pragmatic Programmer")
                 {
-                    Console.WriteLine(books[i]);
+                    continue;
                 }
-                else
-                {
-                    break;
-                }
+                Console.WriteLine(books[i]);
             }
-
         }
     }
 }
