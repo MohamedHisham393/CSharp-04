@@ -2,6 +2,19 @@
 {
     internal class Program
     {
+        static void PrintFirstBook(string[] arr)
+        {
+            if (arr == null)
+            {
+                return;
+            }
+
+            else
+            {
+                Console.WriteLine(arr[0]);
+            }
+        }
+
         static void Main(string[] args)
         {
             //Q1
@@ -107,16 +120,24 @@
 
             //Q9
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            for (int i=0; i<books.Length; i++)
-            {
-                if (books[i] == "The Pragmatic Programmer")
-                {
-                    continue;
-                }
-                Console.WriteLine(books[i]);
-            }
+            //for (int i=0; i<books.Length; i++)
+            //{
+            //    if (books[i] == "The Pragmatic Programmer")
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(books[i]);
+            //}
+
+            //---------------------------------------------------------
+
+            //Q10
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            PrintFirstBook(books);
+
         }
     }
 }
