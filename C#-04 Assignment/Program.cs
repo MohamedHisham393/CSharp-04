@@ -163,9 +163,19 @@ namespace C__04_Assignment
 
             //Q3 String
 
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Append("-Updated");
+            //Console.WriteLine(sb);
+
+            //==========================================================
+
+            //Q4 String 
+
             StringBuilder sb = new StringBuilder();
             sb.Append("Book List");
             sb.Append("-Updated");
+            sb.Replace("Book List", "Library");
             Console.WriteLine(sb);
 
         }
