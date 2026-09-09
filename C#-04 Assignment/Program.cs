@@ -80,9 +80,29 @@
 
             //Q7
 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //foreach (string book in books) { Console.WriteLine(book); }
+
+            //----------------------------------------------------------
+
+            //Q8
+
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            foreach (string book in books) { Console.WriteLine(book); }
+            for (int i = 0; i < books.Length; i++)
+            {
+
+                if (books[i] != "Refactoring")
+                {
+                    Console.WriteLine(books[i]);
+                }
+                else
+                {
+                    break;
+                }
+            }
+
         }
     }
 }
