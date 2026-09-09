@@ -67,13 +67,22 @@
             //---------------------------------------------------------
 
             //Q6
-            int counter = 0;
-            do 
-            {
-                Console.WriteLine("Checking book...");
-                counter++;
 
-            } while (counter < 3);
+            //int counter = 0;
+            //do 
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    counter++;
+
+            //} while (counter < 3);
+
+            //---------------------------------------------------------
+
+            //Q7
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            foreach (string book in books) { Console.WriteLine(book); }
         }
     }
 }
