@@ -142,11 +142,20 @@
 
             //Q1 String
 
-            string title = "clean code";
-            string title02 = title.ToUpper();
+            //string title = "clean code";
+            //string title02 = title.ToUpper();
 
-            Console.WriteLine(title);
-            Console.WriteLine(title02);
+            //Console.WriteLine(title);
+            //Console.WriteLine(title02);
+
+            //==========================================================
+
+            //Q2 String 
+
+            string s1 = "Clean Code";
+            string s2 = "Clean Code";
+
+            Console.WriteLine(ReferenceEquals(s1, s2)); 
 
         }
     }
