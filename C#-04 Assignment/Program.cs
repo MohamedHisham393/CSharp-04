@@ -44,12 +44,26 @@
 
             //Q4
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            for (int i = 0; i< books.Length; i++)
+            //for (int i = 0; i< books.Length; i++)
+            //{
+            //    Console.WriteLine($"Book number {i+1} is {books[i]}" );
+            //}
+
+            //---------------------------------------------------------
+
+            //Q5
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int index = 0;
+
+            while(index < books.Length)
             {
-                Console.WriteLine($"Book number {i+1} is {books[i]}" );
+                Console.WriteLine(books[index]);
+                index ++;
             }
+
         }
     }
 }
