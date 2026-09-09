@@ -172,11 +172,21 @@ namespace C__04_Assignment
 
             //Q4 String 
 
-            StringBuilder sb = new StringBuilder();
-            sb.Append("Book List");
-            sb.Append("-Updated");
-            sb.Replace("Book List", "Library");
-            Console.WriteLine(sb);
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Append("-Updated");
+            //sb.Replace("Book List", "Library");
+            //Console.WriteLine(sb);
+
+            //==========================================================
+
+            //Q5
+
+            string title = "Clean Code";
+            int pages = 464;
+
+            pages.ToString();
+            Console.WriteLine("Book: " + title + ", Pages: " + pages);
 
         }
     }
