@@ -182,12 +182,21 @@ namespace C__04_Assignment
 
             //Q5
 
+            //string title = "Clean Code";
+            //int pages = 464;
+
+            //pages.ToString();
+            //Console.WriteLine("Book: " + title + ", Pages: " + pages);
+
+
+            //==========================================================
+
+            //Q6 String
+
             string title = "Clean Code";
             int pages = 464;
 
-            pages.ToString();
-            Console.WriteLine("Book: " + title + ", Pages: " + pages);
-
+            Console.WriteLine($"Book: {title}, Pages: {pages}");
         }
     }
 }
