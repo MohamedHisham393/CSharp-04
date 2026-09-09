@@ -135,8 +135,18 @@
 
             //Q10
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            PrintFirstBook(books);
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //PrintFirstBook(books);
+
+            //=========================================================
+
+            //Q1 String
+
+            string title = "clean code";
+            string title02 = title.ToUpper();
+
+            Console.WriteLine(title);
+            Console.WriteLine(title02);
 
         }
     }
