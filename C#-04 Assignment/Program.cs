@@ -1,4 +1,6 @@
-﻿namespace C__04_Assignment
+﻿using System.Text;
+
+namespace C__04_Assignment
 {
     internal class Program
     {
@@ -152,10 +154,19 @@
 
             //Q2 String 
 
-            string s1 = "Clean Code";
-            string s2 = "Clean Code";
+            //string s1 = "Clean Code";
+            //string s2 = "Clean Code";
 
-            Console.WriteLine(ReferenceEquals(s1, s2)); 
+            //Console.WriteLine(ReferenceEquals(s1, s2)); 
+
+            //==========================================================
+
+            //Q3 String
+
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Book List");
+            sb.Append("-Updated");
+            Console.WriteLine(sb);
 
         }
     }
